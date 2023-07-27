@@ -15,7 +15,7 @@ const TripForm = ({ setShowForm }) => {
 
   const { beforeToday } = DateRangePicker;
 
-  const onSubmit = (e) => {
+  const onSubmit = () => {
     const currentData = JSON.parse(localStorage.getItem("enquiries"));
     const newData = [...(currentData || []), data];
     localStorage.setItem("enquiries", JSON.stringify(newData));
@@ -71,6 +71,7 @@ const TripForm = ({ setShowForm }) => {
             placeholder="Select Expected Trip Date"
             shouldDisableDate={beforeToday()}
             required
+            preventOverflow
             onChange={(e) =>
               setData((prev) => ({
                 ...prev,

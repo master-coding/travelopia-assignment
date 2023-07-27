@@ -1,8 +1,10 @@
 import { useState } from "react";
+
 import Content from "./Content";
 import Header from "./Header";
-import styles from "./styles.module.css";
 import Enquiries from "./Enquiries";
+
+import styles from "./styles.module.css";
 
 const Travelopia = () => {
   const [showEnquiry, setShowEnquiry] = useState(false);

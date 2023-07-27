@@ -10,7 +10,7 @@ const Enquiries = ({ setShowEnquiry }) => {
         <div className={styles["enquiry__title"]}>Enquiries</div>
 
         <div className={styles["enquiry__datas"]}>
-          {enquiryData?.map((item) => (
+          {[...enquiryData].reverse()?.map((item) => (
             <div className={styles["enquiry__data"]}>
               <div style={{ textAlign: "right" }}>Date</div>
               <div>

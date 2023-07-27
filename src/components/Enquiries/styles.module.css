@@ -3,10 +3,12 @@
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
-  top: 5rem;
+  top: 4.5rem;
   left: calc((100vw - 700px) / 2);
   background: #fff;
   width: 700px;
+  height: 80dvh;
+  overflow: auto;
   border-radius: 12px;
 }
 
@@ -21,8 +23,6 @@
 .enquiry__datas {
   margin: 0.5rem;
   font-size: 12px;
-  height: 400px;
-  overflow: auto;
 }
 
 .enquiry__data {
@@ -43,4 +43,11 @@
   padding: 12px 0;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+}
+
+@media screen and (max-width: 710px) {
+  .enquiry-modal {
+    width: 70dvw;
+    left: calc(15dvw);
+  }
 }
