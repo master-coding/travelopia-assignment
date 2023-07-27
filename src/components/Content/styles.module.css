@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.content-container {
+  display: flex;
+  min-height: 80dvh;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.explore__title {
+  font-family: "Dancing Script", cursive;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.explore__subtitle {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.image img {
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+  border-radius: 100%;
+}
+
+.create-trip {
+  width: 164px;
+  padding: 12px 0;
+  border-radius: 22px;
+  font-size: 15px;
+  background: #1ec28b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 4rem;
+}
+
+.success-modal {
+  background: #fff;
+  width: 400px;
+  height: 150px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  margin-top: 4rem;
+}
+
+.success-modal__header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.success-state {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.enquiry {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}

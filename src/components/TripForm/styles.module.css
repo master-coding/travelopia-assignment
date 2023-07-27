@@ -1,0 +1,39 @@
+.form-container {
+  border: 2px solid #749e82;
+  width: fit-content;
+  padding: 12px;
+  border-radius: 12px;
+  background: #e9efeb;
+  margin-top: 4rem;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.form-item label {
+  width: 100px;
+  margin-right: 1rem;
+  background: #e9efeb;
+}
+
+.form-item input {
+  font-size: 1rem;
+  border: none;
+  background: #e9efeb;
+  padding: 8px;
+}
+
+.create-trip {
+  width: 164px;
+  padding: 12px 0;
+  border-radius: 22px;
+  font-size: 15px;
+  background: #1ec28b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 3rem;
+}

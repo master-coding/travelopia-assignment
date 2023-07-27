@@ -1,0 +1,46 @@
+.enquiry-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 5rem;
+  left: calc((100vw - 700px) / 2);
+  background: #fff;
+  width: 700px;
+  border-radius: 12px;
+}
+
+.enquiry__title {
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #000;
+}
+
+.enquiry__datas {
+  margin: 0.5rem;
+  font-size: 12px;
+  height: 400px;
+  overflow: auto;
+}
+
+.enquiry__data {
+  margin: 0.5rem;
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.enquiry__cancel {
+  text-align: center;
+  background: #f02323;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  padding: 12px 0;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
