@@ -11,16 +11,18 @@ const Enquiries = ({ setShowEnquiry }) => {
 
         <div className={styles["enquiry__datas"]}>
           {[...(enquiryData || [])].reverse()?.map((item) => (
-            <div className={styles["enquiry__data"]}>
-              <div style={{ textAlign: "right" }}>Date</div>
+            <div
+              className={styles["enquiry__data"]}
+              key={`${item.fname}${item.lname}${item.location}`}
+            >
+              <div style={{ textAlign: "right" }}>
+                Date: {item.startDate || "NA"} to {item.endDate || "NA"}
+              </div>
               <div>
                 Name: {item.fname} {item.lname || ""}
               </div>
               <div>Email: {item.email || ""}</div>
               <div>Location: {item.location || ""}</div>
-              <div>
-                Date: {item.startDate || "NA"} to {item.endDate || "NA"}
-              </div>
             </div>
           ))}
         </div>

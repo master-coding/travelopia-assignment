@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { DateRangePicker } from "rsuite";
+import { DatePicker } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
 import styles from "./styles.module.css";
 
@@ -65,18 +66,28 @@ const TripForm = ({ setShowForm }) => {
         </div>
 
         <div className={styles["form-item"]}>
-          <label for="dateRange">Date</label>
-          <DateRangePicker
-            appearance="subtle"
-            placeholder="Select Expected Trip Date"
+          <label for="startDate">Trip Start Date</label>
+          <DatePicker
+            format="yyyy-MM-dd HH:mm"
             shouldDisableDate={beforeToday()}
-            required
-            preventOverflow
             onChange={(e) =>
               setData((prev) => ({
                 ...prev,
-                startDate: e?.[0]?.toLocaleDateString(),
-                endDate: e?.[1]?.toLocaleDateString(),
+                startDate: e?.toLocaleDateString(),
+              }))
+            }
+          />
+        </div>
+
+        <div className={styles["form-item"]}>
+          <label for="endDate">Trip End Date</label>
+          <DatePicker
+            format="yyyy-MM-dd HH:mm"
+            shouldDisableDate={beforeToday()}
+            onChange={(e) =>
+              setData((prev) => ({
+                ...prev,
+                endDate: e?.toLocaleDateString(),
               }))
             }
           />
