@@ -1,18 +1,13 @@
-# Getting Started with Create React App
+# Travelopia Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To run the application, first run
 
-## Available Scripts
-
-In the project directory, you can run:
+### `npm i`
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Then Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
@@ -21,50 +16,22 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Homepage of Website
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Homepage](https://github.com/master-coding/travelopia-assignment/assets/67449082/ddbe8112-8bf2-48e3-ab28-6f671d9df793)
 
-### `npm run eject`
+### Create Trip
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![create_trip](https://github.com/master-coding/travelopia-assignment/assets/67449082/ca29ee5e-cd21-413e-916f-cfae56be71f6)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Trip Success
+![trip_success](https://github.com/master-coding/travelopia-assignment/assets/67449082/e06a7e86-2a2f-460f-aa4b-aa4d87ac6433)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Trip Failure
+![trip_decline](https://github.com/master-coding/travelopia-assignment/assets/67449082/62a65062-01eb-483f-93c3-0372e119fc55)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Enquiries for admin
+![enquiries](https://github.com/master-coding/travelopia-assignment/assets/67449082/ccfc1b5a-394b-4f55-b55d-a5fa14272bbf)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
